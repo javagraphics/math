@@ -28,8 +28,13 @@ dependencies {
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
     from sourceSets.main.allSource
+    from fileTree('License.html')
 }
 
 artifacts {
     archives sourcesJar
+}
+
+jar {
+    from fileTree('License.html')
 }
