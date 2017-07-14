@@ -19,8 +19,8 @@
  */
 package com.bric.math;
 
-import gnu.trove.TLongHashSet;
-import gnu.trove.TLongObjectHashMap;
+import gnu.trove.set.hash.TLongHashSet;
+import gnu.trove.map.hash.TLongObjectHashMap;
 
 import java.util.Arrays;
 
